@@ -6,3 +6,7 @@ This repo contains Practice Python Projects from beginner to advanced. Here is t
 4. Library Management System Python Project
 5. Numbers Guessing Game
 6. Recipe Recommendation System
+7. Simple Python Chatbot
+8. To-Do-List Manager
+9. Virtual Pet Simulator
+10. Weather App
