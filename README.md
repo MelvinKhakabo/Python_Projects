@@ -4,3 +4,5 @@ This repo contains Practice Python Projects from beginner to advanced. Here is t
 2. Currency Converter Python Project
 3. Expense Tracker Python Project
 4. Library Management System Python Project
+5. Numbers Guessing Game
+6. Recipe Recommendation System
