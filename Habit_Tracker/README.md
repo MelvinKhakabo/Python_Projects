@@ -32,3 +32,39 @@ Displays all habits, their current streaks, the last completion date, and total 
 
 ## Persistence
 All habit data is saved in a JSON file (habits.json) for future sessions.
+
+
+# Example Interaction
+--- Habit Tracker ---
+1. Add a new habit
+2. Log today's habits
+3. View habit stats
+4. Exit
+Choose an option: 1
+Enter the habit you want to track: Exercise
+Habit 'Exercise' has been added.
+
+--- Habit Tracker ---
+1. Add a new habit
+2. Log today's habits
+3. View habit stats
+4. Exit
+Choose an option: 2
+
+Log your daily habits:
+Did you complete 'Exercise' today? (y/n): y
+Habit 'Exercise' logged successfully!
+
+--- Habit Tracker ---
+1. Add a new habit
+2. Log today's habits
+3. View habit stats
+4. Exit
+Choose an option: 3
+
+Habit Stats:
++------------+--------+----------------+-------------+
+| Habit      | Streak | Last Completed | Days Logged |
++------------+--------+----------------+-------------+
+| Exercise   | 1      | 2024-12-27     | 1           |
++------------+--------+----------------+-------------+
