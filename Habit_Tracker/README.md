@@ -19,4 +19,16 @@ Provide feedback on how often habits are completed (percentage, graphs).
 Save habit data for future use.
 
 
+# How It Works
+## Adding Habits
+Users can add habits to track, and the program initializes the habit's streak and log history.
 
+## Logging Progress
+Each day, users are prompted to mark whether they've completed their habits.
+If a habit is completed, its streak is updated based on consecutive days.
+
+## Viewing Stats
+Displays all habits, their current streaks, the last completion date, and total days logged.
+
+## Persistence
+All habit data is saved in a JSON file (habits.json) for future sessions.
