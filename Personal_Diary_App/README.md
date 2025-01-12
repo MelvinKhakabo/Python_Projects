@@ -21,6 +21,7 @@ Optionally protect the diary with a password to ensure privacy.
 ### Save & Load Entries
 Store diary entries in a file (e.g., JSON or SQLite database) for long-term use.
 
+--------------------------------------------------------------------------------------------------------------------
 
 ## How It Works
 ### Add New Entries
@@ -39,4 +40,31 @@ Modify or delete specific entries by selecting them from a list.
 ### Save & Load
 Entries are saved in diary_entries.json for future use.
 
+--------------------------------------------------------------------------------------------------------------------
 
+## Example Interaction
+--- Personal Diary ---
+1. Add a New Entry
+2. View All Entries
+3. Search Entries
+4. Edit an Entry
+5. Delete an Entry
+6. Exit
+Choose an option: 1
+Enter the title of your diary entry: Morning Thoughts
+Write your diary entry:
+Feeling great today! Started my day with a walk.
+
+Diary entry saved successfully!
+
+--- Personal Diary ---
+1. Add a New Entry
+2. View All Entries
+3. Search Entries
+4. Edit an Entry
+5. Delete an Entry
+6. Exit
+Choose an option: 2
+
+Date: 2024-12-27
+  1. Morning Thoughts
