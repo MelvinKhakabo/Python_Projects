@@ -15,9 +15,9 @@ Provide immediate feedback on whether the answer is correct.
 Track the user's score and display it at the end of the quiz.
 
 ### Timed Mode
-Add a timer for each question to make it more challenging.
+Add a timer for each question to make it more interesting.
+******************************************************************************************************************
 
---------------------------------------------------------------------------------------------------------------------
 
 ## How It Works
 ### Predefined Questions
