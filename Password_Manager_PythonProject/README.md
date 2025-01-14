@@ -40,3 +40,27 @@ Encrypted data is stored in passwords.json.
 
 --------------------------------------------------------------------------------------------------------------------
 
+# Example Interaction
+--- Password Manager ---
+1. Add New Password
+2. View All Passwords
+3. Search for a Password
+4. Exit
+Choose an option: 1
+Enter the account name: Gmail
+Enter the username: user123
+Enter the password (leave blank to generate a random password): 
+Generated Password: F3v@x7!#k9T
+Password saved successfully!
+
+--- Password Manager ---
+1. Add New Password
+2. View All Passwords
+3. Search for a Password
+4. 4. Exit
+Choose an option: 2
+
+--- Stored Passwords ---
+Account: Gmail
+  Username: user123
+  Password: F3v@x7!#k9T
