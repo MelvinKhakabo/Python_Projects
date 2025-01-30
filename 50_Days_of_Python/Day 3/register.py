@@ -1,4 +1,4 @@
-
+#Day 3: Register Check
 Write a function called register_check that checks how many students 
 are in school. The function takes a dictionary as a parameter. If the 
 student is in school, the dictionary says ‘yes’. If the student is not in 
