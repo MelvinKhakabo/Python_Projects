@@ -6,3 +6,10 @@
 #numbers in the list into a string. Your code should then add a comma on each number as a thousand separator for readability. 
 #When you run your code on the above list, your output should be :['1,000,000', '2,356,989', '2,354,672', '9,878,098']
 #Write a function called convert_numbers that will take one argument, a list of numbers above.
+
+def hide_password():
+    password = input("Enter a password: ")
+    hidden_password = '*' * len(password)
+    print(f"Your password is {len(password)} characters long.")
+    return hidden_password
+print(hide_password())
