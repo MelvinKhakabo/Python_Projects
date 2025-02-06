@@ -3,5 +3,10 @@
 #you pass [‘Java, ‘JavaScript’, ‘Python’], your function should return[10, JavaScript] as the longest word.
 
 def longest_word(words):
-    return max(words, key=len)
-print(longest_word(['Java', 'JavaScript', 'Python'])) #JavaScript
+    longest = ''
+    for word in words:
+        if len(word) > len(longest):
+            longest = word
+    return [len(longest), longest]
+words = ['Java', 'JavaScript', 'Python']
+print(longest_word(words)) #[10, 'JavaScript']
