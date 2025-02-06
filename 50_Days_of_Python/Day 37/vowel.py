@@ -5,5 +5,9 @@
 
 def count_the_vowels(string):
     vowels = 'aeiou'
-    return len(set([i for i in string if i in vowels]))
-print(count_the_vowels('hello')) #2
+    count = 0
+    for char in string:
+        if char.lower() in vowels:
+            count += 1
+    return count
+print
