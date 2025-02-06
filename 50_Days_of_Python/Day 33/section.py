@@ -23,12 +23,17 @@ print(inter_section([20, 30, 60, 65, 75, 80, 85], [42, 30, 80, 65, 68, 88, 95]))
 
 
 import time
-a = range(10000000)
+a = range(10000000) 
 x = set(a)
 y = list(a)
 start_time = time.time()
-9999999 in x
+print(9999999 in x)
 print("--- %s seconds ---" % (time.time() - start_time))
+
+
+
+
+
 
 
 
