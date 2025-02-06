@@ -2,5 +2,12 @@
 #string. For example ‘hello’ should return:{‘h’:1,’e’: 1,’l’:2, ‘o’:1}.
 
 def count(string):
-    return {i: string.count(i) for i in string}
+    count = {}
+    for char in string:
+        if char in count:
+            count[char] += 1
+        else:
+            count[char] = 1
+    return count
 print(count('hello')) #{'h': 1, 'e': 1, 'l': 2, 'o': 1}
+
