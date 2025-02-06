@@ -20,15 +20,14 @@ print(inter_section([20, 30, 60, 65, 75, 80, 85], [42, 30, 80, 65, 68, 88, 95]))
 #Let’s say you are looking for a number 9999999 in the range above. 
 #Search for this number in the list and the set. Your challenge is to find which code executes faster. 
 # You will pick the one that executes quicker, lists, or sets. Run the two searches and time them
+
+
 import time
 a = range(10000000)
 x = set(a)
 y = list(a)
 start_time = time.time()
-print(9999999 in x)
-print("--- %s seconds ---" % (time.time() - start_time))
-start_time = time.time()
-print(9999999 in y)
+9999999 in x
 print("--- %s seconds ---" % (time.time() - start_time))
 
 
