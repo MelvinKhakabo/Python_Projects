@@ -19,7 +19,7 @@ def password_validator():
         if not any(char.isdigit() for char in password):
             print("Password must contain at least one number.")
             continue
-        return password
+        return password 
 print(password_validator())
 
 
