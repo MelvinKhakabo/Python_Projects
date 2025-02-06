@@ -4,11 +4,10 @@
 # The following sentence is a pangram so it should return True:
 #'the quick brown fox jumps over a lazy dog
 
-sentence = "the quick brown fox jumps over the lazy dog"
-def is_pangram(sentence):
-    alphabet = "abcdefghijklmnopqrstuvwxyz"
-    for letter in alphabet:
-        if letter not in sentence.lower():
+def check_pangram(string):
+    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    for char in alphabet:
+        if char not in string:
             return False
     return True
-print(is_pangram(sentence)) #True
+print(check_pangram('the quick brown fox jumps over a lazy dog')) #True
