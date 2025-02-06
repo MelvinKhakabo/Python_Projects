@@ -11,7 +11,7 @@
 #['Brown Chris', 'Cruise Tom', 'Keys Alicia', 'Perry Katie', 'Knowles Beyonce']
 #Write a function called sorted_names.
 
-def repeated_name(names):
-    return max(set(names), key = names.count)
+def repeated_name(name):
+    return max(set(name), key = name.count)
 print(repeated_name(["John", "Peter", "John", "Peter", "Jones", "Peter"])) #Peter
 
