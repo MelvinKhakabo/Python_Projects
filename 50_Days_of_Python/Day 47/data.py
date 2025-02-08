@@ -9,10 +9,9 @@ def save_json(names):
 save_json(names)
 print(names)
 
-
-
-
-
-
-
 #Write another function called read_json that opens the file that you just saved and reads its content.
+def read_json():
+    with open('names.json', 'r') as file:
+        names = json.load(file)
+        print(names)
+read_json()
