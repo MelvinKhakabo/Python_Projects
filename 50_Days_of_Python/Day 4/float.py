@@ -9,3 +9,4 @@ def only_floats(a, b):
         return 1
     else:
         return 0
+print(only_floats(12.1, 23)) #1
