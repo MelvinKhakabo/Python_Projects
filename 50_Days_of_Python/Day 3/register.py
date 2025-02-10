@@ -8,3 +8,5 @@
 register = {'Michael': 'yes', 'John': 'no', 'Peter': 'yes', 'Mary': 'yes'}
 def register_check(register):
     return list(register.values()).count('yes')
+
+print(register_check(register))
