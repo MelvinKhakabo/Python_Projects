@@ -3,5 +3,3 @@
 
 def string_range(num):
     return '.'.join([str(i) for i in range(num)])
-print(string_range(6)) #
-print(string_range(10)) #
