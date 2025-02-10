@@ -5,4 +5,3 @@
 def user_name():
     email = input('Enter your email: ')
     return email.split('@')[0] 
-print(user_name())
