@@ -7,6 +7,6 @@
 
 register = {'Michael': 'yes', 'John': 'no', 'Peter': 'yes', 'Mary': 'yes'}
 def register_check(register):
-    return list
+    return list (register.values()).count('yes')
 
 
