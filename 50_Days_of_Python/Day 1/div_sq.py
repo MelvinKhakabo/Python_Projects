@@ -10,3 +10,4 @@ def divide_or_square(num):
     else:
         return num % 5
 num = 10
+print(divide_or_square(num)) #3.16
