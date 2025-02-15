@@ -4,4 +4,4 @@
 def string_range(num):
     return '.'.join([str(i) for i in range(num)])
 num = 6
-print(string_range(num)) #
+
