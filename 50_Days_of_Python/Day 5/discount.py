@@ -7,4 +7,4 @@ def my_discount():
     price = float(input('Enter the price: '))
     discount = float(input('Enter the discount: '))
     return price - (price * (discount / 100))
-pr
+print(my_discount())
