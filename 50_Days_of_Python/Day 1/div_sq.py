@@ -10,4 +10,4 @@ def divide_or_square(num):
     else:
         return num % 5
 num = 10
-print(divide_or_square(num)) #3.1622776601683795
+print(divide_or_square(num)) #3.162277660168379
