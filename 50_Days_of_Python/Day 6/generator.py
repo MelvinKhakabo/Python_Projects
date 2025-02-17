@@ -2,8 +2,5 @@
 #the code should return everything before the @ sign as their user name. For example, if someone enters ben@gmail.com, the code 
 #should return ben as their user name.
 
-def user_name():
-    email = input('Enter your email: ')
-    return email.split('@')[0]
-print(user_name()) #ben
+
 
