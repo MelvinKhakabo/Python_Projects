@@ -3,5 +3,8 @@
 #have the same characters and have equal length), it should return 
 #True, if they are not, it should return False. For example, ‘love’ and ‘evol’ should return True.
 
-def equal_strings(str1, str2):
-    return str1 == str2
+def equal_strings(a, b):
+    if a ==b:
+        return True
+    else:
+        return False
