@@ -22,5 +22,4 @@
 
 def count_dots(string):
     return string.count('.')
-print(count_dots('h.e.l.p.')) #4
 
