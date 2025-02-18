@@ -22,4 +22,5 @@
 
 def count_dots(string):
     return string.count('.')
+print(count_dots("a.e.r.o.p.l.a.n.e."))
 
