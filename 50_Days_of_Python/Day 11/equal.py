@@ -8,5 +8,5 @@ def equal_strings(a, b):
         return True
     else:
         return False
-print("equal_strings("Love", "Evol")")
+print(equal_strings("Love", "Evol")) #True
 
