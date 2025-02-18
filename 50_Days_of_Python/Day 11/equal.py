@@ -4,7 +4,7 @@
 #True, if they are not, it should return False. For example, ‘love’ and ‘evol’ should return True.
 
 def equal_strings(a, b):
-    if a ==b:
+    if sorted(a) == sorted(b):
         return True
     else:
         return False
