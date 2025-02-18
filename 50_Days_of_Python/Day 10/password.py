@@ -12,3 +12,4 @@ def hide_password():
     hidden_password = '*' * len(password)
     print(f"Your password is {len(password)} characters long.")
     return hidden_password
+print(hide_password()) #****
