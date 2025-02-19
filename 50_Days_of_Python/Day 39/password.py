@@ -19,7 +19,3 @@ def generate_password(length, strength):
     for i in range(length):
         password += random.choice(string.ascii_letters + string.digits + string.punctuation)
     return password
-
-print(generate_password(12, 'very strong'))
-print(generate_password(8, 'strong'))
-print(generate_password(5, 'weak'))
