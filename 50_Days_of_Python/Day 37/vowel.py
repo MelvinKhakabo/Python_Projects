@@ -10,3 +10,4 @@ def count_the_vowels(string):
         if char.lower() in vowels:
             count += 1
     return count
+print(count_the_vowels("hello")) #2
