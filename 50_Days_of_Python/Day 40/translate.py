@@ -15,4 +15,3 @@ def translate(a):
         else:
             b[i] = b[i][1:] + b[i][0] + 'ay'
     return ' '.join(b)
-print(translate('i love python')) #iyay ovelay ythonpay
