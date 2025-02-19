@@ -6,3 +6,6 @@
 def same_in_reverse(word):
     return word == word[::-1]   
 print(same_in_reverse("dad")) #True
+print(same_in_reverse("hello")) #False
+print(same_in_reverse("madam")) #True
+print(same_in_reverse("world")) #False
