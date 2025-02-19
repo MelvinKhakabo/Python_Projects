@@ -18,4 +18,3 @@ def guess_a_number():
             print("Your guess is too low")
     return "You are a loser"
 
-print(guess_a_number())
