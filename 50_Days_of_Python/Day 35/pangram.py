@@ -10,4 +10,3 @@ def check_pangram(string):
         if char not in string:
             return False
     return True
-print(check_pangram('the quick brown fox jumps over a lazy dog')) #True
