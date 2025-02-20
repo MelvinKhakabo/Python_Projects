@@ -40,6 +40,4 @@ bmw1 = Car('x6', 'silver', 2018, 'Auto', False)
 tesla1 = Car('S', 'beige', 2017, 'Auto', True)
 ford1 = Car('focus', 'white', 2020, 'Auto', False)
 
-bmw1.print_cars()
-tesla1.print_cars()
-ford1.print_cars()
+
