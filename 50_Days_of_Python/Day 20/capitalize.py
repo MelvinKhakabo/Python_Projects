@@ -5,3 +5,5 @@
 def capitalze(string):
     return string.title()
 print(capitalze('i like learning')) #I Like Learning
+print(capitalze('hello world')) #Hello World
+print(capitalze('today is monday')) #Today Is Monday
