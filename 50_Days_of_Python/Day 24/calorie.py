@@ -9,3 +9,5 @@ def average_calories():
         calories = int(input(f"Enter the calories for day {day}: "))
         total_calories += calories
     return total_calories / days
+
+average = average_calories()
