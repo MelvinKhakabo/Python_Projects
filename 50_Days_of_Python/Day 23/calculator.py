@@ -33,4 +33,3 @@ operator = input("Enter the operator (+, -, *, /): ")
 num2 = float(input("Enter the second number: "))
 
 result = operate(operator, num1, num2)
-print("Result:", result)
