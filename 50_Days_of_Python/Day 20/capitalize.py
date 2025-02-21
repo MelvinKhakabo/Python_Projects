@@ -2,3 +2,6 @@
 #‘i like learning’ becomes ‘I Like Learning’.
 
 
+def capitalze(string):
+    return string.title()
+print(capitalze('i like learning')) #I Like Learning
