@@ -5,9 +5,5 @@
 #it should return ‘Python’.
 
 def add_hash(string):
-    return string.replace(' ', '#')
-def add_underscore(string):
-    return string.replace('#', '_')
-def remove_underscore(string):
-    return string.replace('_', '')
-print(remove_underscore(add_underscore(add_hash('Python')))) #Python
+    return string.replace('', '#')
+print(add_hash('Python')) #P#y#t#h#o#n                         
