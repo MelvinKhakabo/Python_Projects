@@ -8,7 +8,3 @@
 def sort_words(words):
     return sorted(set(words.replace(' ', '')))
 
-print(sort_words('love life')) #['e', 'f', 'i', 'l', 'o', 'v']
-print(sort_words('python')) #['h', 'n', 'o', 'p', 't', 'y']
-print(sort_words('hello world')) #['d', 'e', 'h', 'l', 'o', 'r', 'w']
-print(sort_words('hello')) #['e', 'h', 'l', 'o']
