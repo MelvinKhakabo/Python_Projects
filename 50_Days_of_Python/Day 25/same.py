@@ -7,5 +7,6 @@
 def all_the_same(data):
     return(len(set(data)) == 1)
 print(all_the_same(['Mars', 'Mars', 'Mars']))
+print(all_the_same(['Mars', 'Mars', 'Jupiter']))
    
 
