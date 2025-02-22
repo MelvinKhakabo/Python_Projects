@@ -11,3 +11,4 @@ def average_calories():
     return total_calories / days
 
 average = average_calories()
+print(f"The average calories intake is: {average}")
