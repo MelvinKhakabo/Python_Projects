@@ -4,6 +4,3 @@
 
 def index_position(string):
     return [i for i in range(len(string)) if string[i].islower()]
-print(index_position('LovE')) #[1, 2]
-print(index_position('HELLO')) #[]
-print(index_position('hello')) #[0, 1, 2, 3, 4]
