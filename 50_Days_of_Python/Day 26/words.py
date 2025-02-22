@@ -7,4 +7,5 @@
 
 def sort_words(words):
     return sorted(set(words.replace(' ', '')))
+print(sort_words('love life')) #['e', 'f', 'i', 'l', 'o', 'v']
 
