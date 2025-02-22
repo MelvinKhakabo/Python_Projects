@@ -5,5 +5,5 @@
 #return True.
 
 def all_the_same(data):
-    return len(set(data)) == 1  # set() removes duplicates from the list
+   
 
