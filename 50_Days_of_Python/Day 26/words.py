@@ -9,5 +9,6 @@ def sort_words(words):
     return sorted(set(words.replace(' ', '')))
 print(sort_words('love life')) #['e', 'f', 'i', 'l', 'o', 'v']
 print(sort_words('python is fun')) #['f', 'h', 'i', 'n', 'o', 'p', 's', 't', 'u', 'y']
+print(sort_words('python is fun and cool')) #['a', 'c', 'd', 'f', 'h', 'i', 'l', 'n', 'o', 'p', 's', 't', 'u', 'y']
 
 
