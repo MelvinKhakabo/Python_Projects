@@ -19,6 +19,12 @@ print(repeated_name('name'))
 #Write a function called sorted_names.
 
 
+def sorted_names(names):
+    names = ['Beyonce Knowles', 'Alicia Keys', 'Katie Perry', 'Chris Brown', 'Tom Cruise']
+    names.sort(key = lambda x: x.split()[1])
+    return names
+print(sorted_names('names'))
+
     
 
 
