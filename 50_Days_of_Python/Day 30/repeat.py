@@ -11,7 +11,7 @@
 #['Brown Chris', 'Cruise Tom', 'Keys Alicia', 'Perry Katie', 'Knowles Beyonce']
 #Write a function called sorted_names.
 
-def repeated_name(name):
+
     
 
 
