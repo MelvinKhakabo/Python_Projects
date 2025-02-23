@@ -13,5 +13,5 @@
 
 def repeated_name(name):
     return max(set(name), key = name.count)
-print(repeated_name(["John", "Peter", "John", "Peter", "Jones", "Peter"])) #Peter
+
 
