@@ -21,8 +21,9 @@ print(repeated_name('name'))
 
 def sorted_names(names):
     names = ['Beyonce Knowles', 'Alicia Keys', 'Katie Perry', 'Chris Brown', 'Tom Cruise']
-    names.sort(key = lambda x: x.split()[1])
-    return names
+    sorted_names = sorted(names, key=lambda name: name.split()[-1])
+    switched_names = [f"{name.split()[-1]} {name.split()[0]}" for name in sorted_names]
+    return switched_names
 print(sorted_names('names'))
 
     
