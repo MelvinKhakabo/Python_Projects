@@ -1,6 +1,13 @@
 #Write a function called repeated_name that finds the most repeated name in the following list.
 #name = ["John", "Peter", "John", "Peter", "Jones", "Peter"]
- 
+def repeated_name(names):
+    name = ["John", "Peter", "John", "Peter", "Jones", "Peter"]
+    most_repeated = max(set(name), key = name.count)
+    return most_repeated
+print(repeated_name('name'))  
+
+
+
 #Extra Challenge: Sort by Last Name
 #b. You work for a local school in your area. The school has a list of names of students saved in a list. 
 #The school has asked you to write a program that takes a list of names and sorts them alphabetically. 
