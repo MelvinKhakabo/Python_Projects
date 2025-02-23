@@ -12,6 +12,6 @@
 #Write a function called sorted_names.
 
 def repeated_name(name):
-    return max(set(name), key = name.count)
+    
 
 
