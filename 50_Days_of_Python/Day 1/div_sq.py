@@ -9,4 +9,4 @@ def divide_or_square(num):
         return math.sqrt(num)
     else:
         return num % 5
-    
+print(divide_or_square(10))   
