@@ -5,7 +5,7 @@
 #of students in school. Use the dictionary below. Your function should 
 #return 3.
 
-
+register = {'Michael': 'yes', 'John': 'no', 'Peter': 'yes', 'Mary': 'yes'}
 
 
 
