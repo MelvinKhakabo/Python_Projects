@@ -6,8 +6,6 @@
 #return 3.
 
 
-def register_check(register):
-    return list (register.values()).count('yes')
 
 
 
