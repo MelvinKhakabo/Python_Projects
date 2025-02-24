@@ -7,6 +7,8 @@
 
 register = {'Michael': 'yes', 'John': 'no', 'Peter': 'yes', 'Mary': 'yes'}
 def register_check(register):
-    
+    return len([i for i in register.values() if i == 'yes'])
+print(register_check(register)) #3
+
 
 
