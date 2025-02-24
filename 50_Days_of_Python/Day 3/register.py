@@ -6,6 +6,7 @@
 #return 3.
 
 register = {'Michael': 'yes', 'John': 'no', 'Peter': 'yes', 'Mary': 'yes'}
-
+def register_check(register):
+    
 
 
