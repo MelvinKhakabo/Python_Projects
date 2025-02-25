@@ -5,6 +5,6 @@
 def user_name():
     email = str(input("Enter your email: "))
     return email.split("@")[0]
-
+print(user_name())
 
 
