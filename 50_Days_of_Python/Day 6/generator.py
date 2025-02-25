@@ -3,8 +3,7 @@
 #should return ben as their user name.
 
 def user_name(email):
-    email = str(input("Enter your rmail:")),
+    email = str(input("Enter your email:")),
     return email.split("@")[0]
-print(user_name("ben@gmail.com"))  # ben
-
+print(user_name('email')) 
 
