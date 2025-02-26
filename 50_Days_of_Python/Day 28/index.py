@@ -3,6 +3,6 @@
 #letters in the string. For example ‘LovE’ should return [1,2].
 
 def index_position(string):
-    return [i for i in range(len(string)) if string[i].islower()]
+  
 
 
