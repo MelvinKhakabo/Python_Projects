@@ -6,7 +6,6 @@
 #‘not wars’ as an argument for b. Your function should return ‘e’ as 
 #the middle element. Whitespaces should be removed.
 
-def middle_figure(a, b):
-    return a + b
+
 
 
