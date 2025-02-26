@@ -6,6 +6,13 @@
 #‘not wars’ as an argument for b. Your function should return ‘e’ as 
 #the middle element. Whitespaces should be removed.
 
+def middle_figure(a, b):
+    c = a + b
+    if len(c) % 2 == 0:
+        return 'no middle figure'
+    return c[len(c) // 2]
+
+print(middle_figure('make love', 'not wars'))
 
 
 
