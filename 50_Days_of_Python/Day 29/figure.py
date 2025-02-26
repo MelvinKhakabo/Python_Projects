@@ -8,6 +8,5 @@
 
 def middle_figure(a, b):
     return a + b
-print(middle_figure('make love', 'not wars')) #makelovenotwars
-#The middle element is ‘e’
-#Output: e
+
+
