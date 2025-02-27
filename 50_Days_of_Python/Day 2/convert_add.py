@@ -4,6 +4,6 @@
  
 def convert_add(list):
     return sum([int(i) for i in list])
-
+print(convert_add(['1', '3', '5'])) #9
 
 
