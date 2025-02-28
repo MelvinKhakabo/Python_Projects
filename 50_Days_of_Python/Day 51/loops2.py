@@ -49,3 +49,6 @@ for room in house:
 #not nested loop
 for room in house:
    print('the' + room[0] + 'is' + str(room[1]) + 'sqm')
+#add spaces for more visibility
+for room in house:
+    print('the ' + room[0] + ' is ' + str(room[1]) + ' sqm')
