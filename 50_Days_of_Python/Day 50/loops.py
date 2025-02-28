@@ -12,3 +12,9 @@ while offset != 0:
     print("correcting...")
     offset = offset - 1
     print(offset)
+
+#Adding if-else statements to the loop
+#Initialize offset to -6.
+#Inside the while loop, complete the if-else statement:
+#If offset is greater than zero, you should decrease offset by 1.
+#Else, you should increase offset by 1.
