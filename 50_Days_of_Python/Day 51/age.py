@@ -6,4 +6,3 @@ def printCategory(age):
     else:  
         print('child')  
 
-printCategory(70)
