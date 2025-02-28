@@ -39,3 +39,9 @@ house = [["hallway", 11.25],
          ["living room", 20.0], 
          ["bedroom", 10.75], 
          ["bathroom", 9.50]]
+
+#nested loop# Build a for loop from scratch
+for room in house:
+    print(room)
+    for item in room:
+        print(item)
