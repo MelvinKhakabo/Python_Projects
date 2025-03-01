@@ -21,12 +21,16 @@
 
 
 #add column called country to cars dataframe# Import cars data
+# Import cars data
 #import pandas as pd
 #cars = pd.read_csv('cars.csv', index_col = 0)
 
 # Code for loop that adds COUNTRY column
 #for lab, row in cars.iterrows():
-#    cars.loc[lab, "COUNTRY"] = len(row["country"].upper())
+    # Check what you're assigning to the COUNTRY column
+#    print(row["country"].upper())  #uppercase country name
+#    cars.loc[lab, "COUNTRY"] = row["country"].upper()
+
 
 # Print cars
 #print(cars)
