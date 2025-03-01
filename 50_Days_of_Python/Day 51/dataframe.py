@@ -20,14 +20,13 @@
 #    print(lab + ": " + str(row['cars_per_cap']))
 
 
-#add column
-# Import cars data
+#add column called country to cars dataframe# Import cars data
 #import pandas as pd
 #cars = pd.read_csv('cars.csv', index_col = 0)
 
 # Code for loop that adds COUNTRY column
 #for lab, row in cars.iterrows():
-#    cars.loc[lab, "name_length"] = len(row["country"])
+#    cars.loc[lab, "COUNTRY"] = len(row["country"].upper())
 
 # Print cars
 #print(cars)
