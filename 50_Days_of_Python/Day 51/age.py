@@ -8,3 +8,4 @@ def printCategory(age):
         print('child')  
 printCategory(60)
 printCategory(70)
+printCategory(10)
