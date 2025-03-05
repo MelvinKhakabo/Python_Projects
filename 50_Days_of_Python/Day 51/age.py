@@ -6,3 +6,6 @@ def printCategory(age):
         print('Senior Citizen')  
     else:  
         print('child')  
+printCategory(60)
+printCategory(70)
+printCategory(10)
