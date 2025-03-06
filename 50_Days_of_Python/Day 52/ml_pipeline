@@ -1,0 +1,13 @@
+digraph {
+	Start [label=Start shape=oval]
+	EDA [label="Exploratory Data Analysis" shape=rectangle]
+	Preprocessing [label=Preprocessing shape=rectangle]
+	Splitting [label="Data Splitting" shape=rectangle]
+	Training [label="Model Training" shape=rectangle]
+	End [label=End shape=oval]
+	Start -> EDA
+	EDA -> Preprocessing
+	Preprocessing -> Splitting
+	Splitting -> Training
+	Training -> End
+}
