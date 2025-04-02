@@ -9,4 +9,4 @@ def my_discount():
     discount = float(input("Enter the discount percentage: "))
     price_after_discount = price - (price * discount / 100)
     return price_after_discount
-print(my_discount())    
+print(my_discount()) #127.5    
