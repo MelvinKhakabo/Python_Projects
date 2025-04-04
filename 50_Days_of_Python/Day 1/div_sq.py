@@ -14,4 +14,4 @@ def divide_or_square(num):
         return num % 5  # Return remainder when divided by 5
 
 print(divide_or_square(10))  # Output: 3.16 (square root of 10)
-print(divide_or_square(25))  # Output: 5.0 (square root of 25)
+
