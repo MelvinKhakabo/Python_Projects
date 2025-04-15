@@ -13,3 +13,4 @@ def string_range(n):
     str: A string of numbers separated by dots.
     """
     return '.'.join(str(i) for i in range(n))
+print
