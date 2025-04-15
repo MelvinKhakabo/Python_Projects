@@ -3,7 +3,3 @@
 
 
 
-
-def string_range(num):
-    return '.'.join([str(i) for i in range(num)])
-print(string_range(6)) #'0.1.2.3.4.5't
