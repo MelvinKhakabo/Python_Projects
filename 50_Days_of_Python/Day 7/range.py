@@ -4,13 +4,4 @@
 
 def string_range(n):
     """
-    Returns a string of numbers from 0 to n-1, separated by dots.
-    
-    Parameters:
-    n (int): The upper limit for the range.
-    
-    Returns:
-    str: A string of numbers separated by dots.
-    """
-    return '.'.join(str(i) for i in range(n))
 
