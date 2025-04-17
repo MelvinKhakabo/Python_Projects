@@ -3,9 +3,5 @@
 
 
 
-def string_range(n):
-    return '.'.join(str(i) for i in range(n))
-print(string_range)
-
 
 
