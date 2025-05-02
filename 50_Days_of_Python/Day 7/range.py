@@ -2,10 +2,7 @@
 #separated by dots(.) For example, if you pass 6 as an argument, your function should return ‘0.1.2.3.4.5’.
 
 
-def string_range(n):
-    return '.'.join(str(i) for i in range(n))
 
-print(string_range(6))
 
 
 
