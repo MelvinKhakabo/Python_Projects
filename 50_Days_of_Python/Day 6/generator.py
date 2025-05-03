@@ -3,9 +3,5 @@
 #should return ben as their user name.
 
 
-
-
-def user_name():
-    email = str(input("Enter your email: "))
-    return email.split("@")[0]
-print(user_name())
+# The code should also handle the case where the user enters an invalid email address.
+# For example, if someone enters ben@gmail, the code should return an error message saying that the email address is invalid.
