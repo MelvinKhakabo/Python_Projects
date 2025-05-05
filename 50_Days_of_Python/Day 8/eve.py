@@ -7,3 +7,4 @@ def odd_even(lst):
     odds = [i for i in lst if i % 2 != 0]
     return max(evens) - min(odds)
 print(odd_even([1,2,4,6])) #5
+print(odd_even([1,2,3,4,5,6])) #5
