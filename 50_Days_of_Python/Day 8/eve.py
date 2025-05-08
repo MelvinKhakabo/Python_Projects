@@ -17,3 +17,5 @@ def odd_even(numbers):
 print(odd_even([1, 2, 4, 6]))  # Output: 5
 print(odd_even([1, 3, 5, 7]))  # Output: None
 print(odd_even([2, 4, 6, 8]))  # Output: None
+print(odd_even([1, 3, 5, 7, 2]))  # Output: 5
+print(odd_even([1, 2, 3, 4, 5, 6]))  # Output: 4
