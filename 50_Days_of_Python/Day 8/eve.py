@@ -3,17 +3,4 @@
 #if you pass [1,2,4,6] as an argument the function should return 6 -1= 5.
 
 
-def odd_even(numbers):
-    even_numbers = [num for num in numbers if num % 2 == 0]
-    odd_numbers = [num for num in numbers if num % 2 != 0]
 
-    if not even_numbers or not odd_numbers:
-        return None
-
-    largest_even = max(even_numbers)
-    smallest_odd = min(odd_numbers)
-
-    return largest_even - smallest_odd
-print(odd_even([1, 2, 4, 6]))  # Output: 5
-print(odd_even([1, 3, 5, 7]))  # Output: None
-print(odd_even([2, 4, 6, 8]))  # Output: None
