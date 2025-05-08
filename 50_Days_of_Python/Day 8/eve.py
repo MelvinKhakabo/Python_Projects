@@ -15,3 +15,4 @@ def odd_even(numbers):
 
     return largest_even - smallest_odd
 print(odd_even([1, 2, 4, 6]))  # Output: 5
+print(odd_even([1, 3, 5, 7]))  # Output: None
