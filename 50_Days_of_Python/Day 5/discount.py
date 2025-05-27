@@ -4,15 +4,7 @@
 #return 127.5.
 
 
-def my_discount():
-    price = float(input("Enter the price of the product: "))
-    discount = float(input("Enter the discount percentage: "))
-    
-    # Calculate the price after discount
-    discounted_price = price - (price * (discount / 100))
-    
-    return discounted_price
-print(my_discount())
+
 
 
 
