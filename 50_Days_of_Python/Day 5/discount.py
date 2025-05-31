@@ -3,15 +3,7 @@
 #should return the price after the discount. For example, if the user enters 150 as price and 15% as the discount, your function should 
 #return 127.5.
 
-def my_discount():
-    price = float(input("Enter the price of the product: "))
-    discount = float(input("Enter the discount percentage: "))
-    
-    # Calculate the price after discount
-    discounted_price = price - (price * (discount / 100))
-    
-    return discounted_price
-print(my_discount())
+
 
 
 
