@@ -17,7 +17,7 @@ def my_discount():
         return final_price
     except ValueError as e:
         print(f"Invalid input: {e}")
-        return None
+        return 
 
 
         
