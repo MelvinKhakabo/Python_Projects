@@ -18,7 +18,7 @@ def my_discount():
     except ValueError as e:
         print(f"Invalid input: {e}")
         return 
-pr
+print(my_discount())
 
 
         
